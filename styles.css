@@ -1,0 +1,114 @@
+/* Styles for mode selection */
+.mode-selection {
+    text-align: center;
+    margin-top: 20%;
+  }
+  
+  .mode-selection h2 {
+    font-size: 1.5rem;
+  }
+  
+  .mode-selection button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* Styles for game */
+  .game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    width: 300px; /* Adjust width as needed */
+    margin: 20px auto;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-color: lightblue;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: lightcyan;
+  }
+  
+  .message-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #newGameButton {
+    display: block;
+    margin: 20px auto;
+  }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #60a7e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styles for mode selection */
+.mode-selection {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.mode-selection h2 {
+    font-size: 1.5rem;
+}
+
+.mode-selection button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Styles for game container */
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* Adjust width as needed */
+    grid-template-rows: repeat(3, 100px); /* Adjust height as needed */
+    grid-gap: 5px;
+    background-color: #0c7fdd;
+    border: 1px solid #ccc;
+    width: 320px; /* Adjust overall width as needed */
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+/* Styles for message container */
+.message-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#newGameButton {
+    display: none;
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 8px 16px;
+    cursor: pointer;
+}  
